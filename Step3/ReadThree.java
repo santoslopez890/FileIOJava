@@ -12,7 +12,7 @@ public class ReadThree
         try{
             System.out.print("Writing to file ... ");
             // Create the file to write to
-            PrintWriter fileOut = new PrintWriter("output.txt");
+            PrintWriter fileOut = new PrintWriter("Step3/output.txt");
             // Write text just like we would to the console
             fileOut.println("Hello ");
             // Clode out file
